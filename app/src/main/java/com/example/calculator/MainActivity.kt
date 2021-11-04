@@ -79,5 +79,17 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    fun acClick(clickedView: View) {
+        resultTextView.text = ""
+    }
+
+    fun deleteLastCharacter(clickedView: View) {
+          var text = resultTextView.text
+//        println(text[text.length-1])
+//        resultTextView.text = text
+
+        resultTextView.text = text.dropLast(1)
+
+    }
 
 }

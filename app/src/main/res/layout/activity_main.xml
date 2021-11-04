@@ -24,7 +24,7 @@
             android:background="#FF85A2"
             android:gravity="center"
             android:text="AC"
-            android:onClick="numberClick"
+            android:onClick="acClick"
             android:textColor="@color/white"
             android:textSize="35sp"/>
 
@@ -35,7 +35,7 @@
             android:background="#FF85A2"
             android:gravity="center"
             android:text="÷"
-            android:onClick="numberClick"
+            android:onClick="operationClick"
             android:textColor="@color/white"
             android:textSize="35sp"/>
 
@@ -88,7 +88,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                android:onClick="numberClick"
+                android:onClick="operationClick"
                 android:background="#FF9EB5"
                 android:gravity="center"
                 android:text="×"
@@ -138,7 +138,7 @@
                 android:layout_weight="1"
                 android:background="#FF9EB5"
                 android:gravity="center"
-                android:onClick="numberClick"
+                android:onClick="operationClick"
                 android:text="−"
                 android:textColor="#FFFFFF"
                 android:textSize="35sp"/>
@@ -184,7 +184,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                android:onClick="numberClick"
+                android:onClick="operationClick"
                 android:background="#FF9EB5"
                 android:gravity="center"
                 android:text="+"
@@ -202,7 +202,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                android:onClick="numberClick"
+                android:onClick="deleteLastCharacter"
                 android:background="#FF85A2"
                 android:gravity="center"
                 android:text="←"
@@ -237,7 +237,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="100dp"
                 android:layout_weight="1"
-                android:onClick="numberClick"
+                android:onClick="equalsClick"
                 android:background="#FF85A2"
                 android:gravity="center"
                 android:text="="
